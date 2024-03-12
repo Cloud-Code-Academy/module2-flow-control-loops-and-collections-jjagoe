@@ -31,14 +31,14 @@ public with sharing class FlowControlLoopsCollections {
     public static String helloWorld(Integer x, Integer y) {
         // Check if either of the numbers is null
         if (x == null || y == null) {
-            return null; // Replace null with the variable you used to store the result
+            return null; 
         }
         
         // Compare x and y
         if (x > y) {
             return 'Hello World!';
         } else {
-            return null; // Replace null with the variable you used to store the result
+            return null; // 
         }
     }
         
