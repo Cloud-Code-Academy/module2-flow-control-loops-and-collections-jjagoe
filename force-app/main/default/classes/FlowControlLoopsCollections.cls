@@ -14,7 +14,7 @@
 * in flow control, loops, and collections. By mastering these concepts, developers will be able to write more
 * efficient and effective code in their Salesforce projects.
 *
-* @author Your Name
+* @author John Jagoe
 */
 
 public with sharing class FlowControlLoopsCollections {
@@ -29,8 +29,20 @@ public with sharing class FlowControlLoopsCollections {
      * @return "Hello World!" if x greater than y, otherwise return null.
      */
     public static String helloWorld(Integer x, Integer y) {
-        return null; // Replace null with the variable you used to store the result
+        // Check if either of the numbers is null
+        if (x == null || y == null) {
+            return null; // Replace null with the variable you used to store the result
+        }
+        
+        // Compare x and y
+        if (x > y) {
+            return 'Hello World!';
+        } else {
+            return null; // Replace null with the variable you used to store the result
+        }
     }
+        
+    
 
     /**
      * Question 2
