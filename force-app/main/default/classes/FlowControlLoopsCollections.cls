@@ -227,12 +227,12 @@ public with sharing class FlowControlLoopsCollections {
 
         for (Integer i = 0; i < repeatCount; i++){
             result += inputString;
-            if(i <2){
+            if(i < repeatCount -1 ){
                 result += '; ';
             }
          }
        
-        return result; // Replace null with the variable you used to store the result
+        return result; 
     }
 
     /**
