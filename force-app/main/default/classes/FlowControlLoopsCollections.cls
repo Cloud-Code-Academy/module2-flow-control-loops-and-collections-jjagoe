@@ -313,7 +313,7 @@ public with sharing class FlowControlLoopsCollections {
             stringSet.add(str);
         }
 
-        return stringSet; // Replace null with the variable you used to store the result
+        return stringSet; 
     }
 
     /**
