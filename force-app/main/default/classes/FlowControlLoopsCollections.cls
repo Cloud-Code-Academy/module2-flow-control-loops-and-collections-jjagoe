@@ -255,7 +255,7 @@ public with sharing class FlowControlLoopsCollections {
         integerList.add(3);
 
         // Return the populated list
-        return integerList; // Replace null with the variable you used to store the result
+        return integerList; 
     }
 
     /**
