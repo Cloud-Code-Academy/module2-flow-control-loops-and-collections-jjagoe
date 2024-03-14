@@ -334,7 +334,7 @@ public with sharing class FlowControlLoopsCollections {
                 }
             }
         
-        return sum; // Replace null with the variable you used to store the result
+        return sum; 
     }
 
     /**
