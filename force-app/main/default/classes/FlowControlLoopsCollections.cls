@@ -196,15 +196,19 @@ public with sharing class FlowControlLoopsCollections {
      */
     public static String returnHelloWorld() {
         // Initialize the result String
-        String strHelloWorld = 'Hello World!;';
+        String strHelloWorld = 'Hello World!';
+        String result = '';
 
         // Use a for loop to append 'Hello World!;' to the result string three times
          
          for (Integer i = 0; i < 3; i++){
-            strHelloWorld = strHelloWorld + strHelloWorld;
+            result += strHelloWorld;
+            if(i <3){
+                result += '; ';
+            }
          }
        
-        return strHelloWorld; // Replace null with the variable you used to store the result
+        return result; 
     }
 
     /**
