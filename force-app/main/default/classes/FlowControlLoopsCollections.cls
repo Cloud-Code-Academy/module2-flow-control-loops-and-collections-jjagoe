@@ -248,9 +248,14 @@ public with sharing class FlowControlLoopsCollections {
         // add 1
         // add 2
         // add 3
+        List<Integer> integerList = new List<Integer>();
+
+        integerList.add(1);
+        integerList.add(2);
+        integerList.add(3);
 
         // Return the populated list
-        return null; // Replace null with the variable you used to store the result
+        return integerList; // Replace null with the variable you used to store the result
     }
 
     /**
