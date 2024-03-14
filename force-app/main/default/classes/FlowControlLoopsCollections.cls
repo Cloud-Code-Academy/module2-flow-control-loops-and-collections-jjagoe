@@ -223,11 +223,10 @@ public with sharing class FlowControlLoopsCollections {
      */
     public static String repeatString(String inputString, Integer repeatCount) {
         // Initialize the result String
-        String strHelloWorld = 'Hello World!';
-        String result = '';
+           String result = '';
 
         for (Integer i = 0; i < repeatCount; i++){
-            result += strHelloWorld;
+            result += inputString;
             if(i <2){
                 result += '; ';
             }
