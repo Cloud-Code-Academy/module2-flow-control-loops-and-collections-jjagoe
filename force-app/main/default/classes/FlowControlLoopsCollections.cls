@@ -223,17 +223,17 @@ public with sharing class FlowControlLoopsCollections {
      */
     public static String repeatString(String inputString, Integer repeatCount) {
         // Initialize the result String
+        String strHelloWorld = 'Hello World!';
+        String result = '';
 
-        // Use a for loop to append the inputString to the result string repeatCount times
-        /*
-        for () {
-
-            // If it is not the last iteration, add a semicolon to separate the strings
-        }
-        */
-
-        // Return the final result string
-        return null; // Replace null with the variable you used to store the result
+        for (Integer i = 0; i < repeatCount; i++){
+            result += strHelloWorld;
+            if(i <2){
+                result += '; ';
+            }
+         }
+       
+        return result; // Replace null with the variable you used to store the result
     }
 
     /**
