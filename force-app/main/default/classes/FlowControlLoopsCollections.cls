@@ -288,12 +288,12 @@ public with sharing class FlowControlLoopsCollections {
         List<Integer> repectedList = new List<Integer>();
 
         
-        for(Integer i = 0; i <= n; i++) {
+        for(Integer i = 1; i <= n; i++) {
              //add integer to the list
              repectedList.add(i);
         }
   
-        return repectedList; // Replace null with the variable you used to store the result
+        return repectedList; 
     }
 
     /**
