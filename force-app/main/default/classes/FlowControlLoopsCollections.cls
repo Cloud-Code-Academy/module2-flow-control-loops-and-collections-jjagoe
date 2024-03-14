@@ -182,10 +182,10 @@ public with sharing class FlowControlLoopsCollections {
      */
     public static Integer sumUpToLimit(Integer intLimit) {
         Integer sum = 0;
-         for (Integer i = 0; i < intLimit; i++){
-            sum += intLimit;
+         for (Integer i = 0; i <= intLimit; i++){
+            sum += i;
          }
-         return null; // Replace null with the variable you used to store the result
+         return sum; 
     }
 
     /**
