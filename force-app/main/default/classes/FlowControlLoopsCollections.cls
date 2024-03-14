@@ -137,7 +137,7 @@ public with sharing class FlowControlLoopsCollections {
     public static String checkString(String a) {
          
         if (a == null) {
-            return 'Null'; // Replace null with the variable you used to store the result
+            return 'Null'; 
         } else if (a.length() > 0) {
             return 'Contains Text';
         } else {
