@@ -272,7 +272,7 @@ public with sharing class FlowControlLoopsCollections {
         numberList.remove(2);
 
         // Return the updated list
-        return numberList; // Replace null with the variable you used to store the result
+        return numberList; 
     }
 
     /**
