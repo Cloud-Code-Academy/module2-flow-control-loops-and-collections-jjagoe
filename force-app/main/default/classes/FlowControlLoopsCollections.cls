@@ -270,9 +270,9 @@ public with sharing class FlowControlLoopsCollections {
 
         // Remove the 3rd element (number 3) from the list
         numberList.remove(3);
-        
+
         // Return the updated list
-        return null; // Replace null with the variable you used to store the result
+        return numberList; // Replace null with the variable you used to store the result
     }
 
     /**
