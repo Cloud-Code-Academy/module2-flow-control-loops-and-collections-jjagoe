@@ -119,7 +119,7 @@ public with sharing class FlowControlLoopsCollections {
     public static String checkEvenOdd(Integer a) {
          
         if (a == null) {
-            return null; // Replace null with the variable you used to store the result
+            return null; 
         } else if (Math.mod(a, 2) == 0) {
             return 'Even';
         } else {
