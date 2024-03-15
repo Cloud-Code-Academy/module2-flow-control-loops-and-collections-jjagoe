@@ -462,6 +462,7 @@ public with sharing class FlowControlLoopsCollections {
         employeeSalaries.put('Alice Johnson', 65000);
 
         // Initialize a list to store the names of high paid employees
+        Map<String, Integer> highPaidEmp = new Map<String, Integer>();
 
         // Iterate over the Map using a for loop
             // Check if the salary of the employee is more than 55000
