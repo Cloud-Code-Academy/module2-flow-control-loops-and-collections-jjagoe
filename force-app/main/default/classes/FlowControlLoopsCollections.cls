@@ -353,11 +353,12 @@ public with sharing class FlowControlLoopsCollections {
             for(String str : words){
                 if(str == wordToFind){
                     strPosition = words.indexOf(str);
-                    break;
-                }
+                    return strPosition;
+                   
+               }
             }
-
-        return strPosition; // Replace null with the variable you used to store the result
+            
+        return -1; // Word Not Found.
     }
 
     /**
